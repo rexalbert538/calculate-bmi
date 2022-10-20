@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #444;
+  text-align: center;
+}
+
+/* Typography */
+h1,
+h2 {
+  font-size: 2.5rem;
+}
+
+h1 {
+  color: #ffa500;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.container {
+  background: #f3f3f3;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 4rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card__bmi {
+  margin-top: 0.8rem;
+  padding: 2em;
+  width: 22rem;
+  background: #444;
+}
+
+.bmi__input {
+  margin-top: 2rem;
+}
+
+.bmi__input > input {
+  width: 100%;
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid orange;
+  color: #444;
+  font-size: 1.2rem;
+}
+
+.btn__calc {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: orange;
+  color: #f3f3f3;
+  font-size: 1.2rem;
+}
+
+.bmi__input > input,
+.btn__calc {
+  border-radius: 10px;
+}
