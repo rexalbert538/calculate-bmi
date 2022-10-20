@@ -34,7 +34,8 @@ const bmiResult = (height, weight) => {
 };
 
 container.addEventListener('click', e => {
-  e.target.classList.contains('btn__calc');
-
-  bmiCalc();
+  e.preventDefault();
+  if (e.target.classList.contains('btn__calc')) {
+    bmiCalc();
+  }
 });
